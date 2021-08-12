@@ -1,0 +1,45 @@
+/*header*/
+
+.imagen_logo{
+    width: 15vw;
+}
+
+.iconmail{
+    font-size: 2vw;
+    color: grey;
+}
+
+/*main*/
+
+.principal{
+    margin-top: 5vh;
+}
+
+.imagen1{
+    width: 30vw;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh;
+}
+
+@media(max-width:600px){
+    .imagen1{
+        display: none;
+    }
+}
+
+p{
+    text-align: justify;
+}
+
+label{
+    margin-right: 5px;
+}
+
+a:hover{
+    transform: scale(1.1)!important;
+}
